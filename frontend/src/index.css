@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: url(./images/bg.jpg);
+}
+.login{
+  width: 100%;
+  height: 110px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+.loginemail,.loginpass{
+  color: white;
+  padding: 1%;
+}.loginemail{
+  margin-left: 6%;
+}
+.login a{
+  padding-left: 3%;
+  color: red;
+  text-decoration: none;
+}
+.logo{
+  margin-left: 1%;
+}
+.title{
+  font-size: 16px;
+  color: white;
+  padding-left: 1%;
+}
+#aa{
+  float: left;
+  margin-top: 3%;
+  margin-left: 4%;
+}
+.bottom{
+  margin-left: 50%;
+}
+#signup{
+  color: rgb(255, 115, 0);
+  font-size: 45px;
+  margin-left: 150px;
+  margin-top: 3%;
+}
+.bottom input{
+  margin-left: 20% ;
+  margin-top: 2%;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#registerbtn{
+  margin-top: 3%;
+  margin-left: 20%;
+}
+#footer{
+  margin-left: 35%;
+}.img1,.img2,.img3{
+  margin-left: 1250%;
+}
+.mid h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    color: orange;
+}
+table img{
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding-top: 7%;
+  padding-left: 9%;
+}
+.grey td{
+  background-color: lightgrey
+}
+.maintable thead{
+background-color: lightgreen;
+}
+.tablediv{
+  display: flex;
+  justify-content: center;
+}.tablediv table{
+  width: 90%;
+}
+#addasset{
+  border-color: orange;
+  padding: 5px;
+  margin-left: 80%;
+}
+.report{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.report button{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.profile h1{
+  display: flex;
+  justify-content: center;
+}.profile .inside{
+  margin-left: 15%;
+  margin-top: 5%;
+  font-size: xx-large;
+}
+.profile input{
+  padding: 1%;
+  margin-left: 40%;
+}
+.inside .a{
+  margin-left: 17.4%;
+}
+.inside .b{
+  margin-left: 46.7%;
+}
+#upd{
+  padding: 1%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.addasset h1{
+  display: flex;
+  justify-content: center;
+}
+.addasset form{
+  background-color: grey;
+  width: 50%;
+  height: 350px;
+  margin-left: 25%;
+}
+.addasset form label{
+padding: 10%;
+margin-left: 13%;
+}
+.addasset form input,.addasset form select{
+  margin-top: 6%;
+  padding-right: 6%;
+  }
+  .addasset form button{
+    margin-left: 43%;
+    margin-top: 5%;
+    padding: 1%;
+  }
+  .forgetpass{
+    background-color: grey;
+    width: 55%;
+    height: 400px;
+    margin-top: 2%;
+    margin-left:25% ;
+  }.forgetpass input,.forgetpass button{
+    margin-left:35% ;
+    margin-top: 3.5%;
+    padding: 1%;
+  }
+  .forgetpass button{
+    background-color: orange;
+    color: white;
+    /* height: 30px; */
+  }
+  #changepass{
+    display: flex;
+    justify-content: center;
+    color: orange;
+  }
